@@ -61,3 +61,14 @@ li {
     justify-content: space-around;
     align-items: center;
 }
+
+.right-section {
+    padding: 3vh 3vw;
+}
+.hero-img {
+    height: 40vw;
+}
+
+.left-section {
+    padding: 3vh 3vw;
+}
