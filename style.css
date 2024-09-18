@@ -3,7 +3,8 @@
 * {
     font-family: Poppins;
 
-    --medium: 1vw;
+    --medium: 3vw;
+    --small: 1.5vw;
 
     --bg-odd: #47321a;
     --bg-even: #37230a;
@@ -71,4 +72,30 @@ li {
 
 .left-section {
     padding: 3vh 3vw;
+}
+
+.hero-heading {
+    color: var(--add);
+    font-size: var(--medium);
+}
+
+.note {
+    color: white;
+    font-size: var(--medium);
+}
+
+.hero-discription {
+    color: white;
+    font-size: var(--small);
+}
+
+.hero-btn {
+    height: 5vw;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 0 3vw;
+    border-radius: 3vw;
+    font-size: var(--small);
+    margin-right: 2vw;
 }
