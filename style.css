@@ -3,11 +3,17 @@
 * {
     font-family: Poppins;
 
-    --medium: 1vw;
+    --medium: 3vw;
+    --small: 1.5vw;
+
+    --bg-odd: #47321a;
+    --bg-even: #37230a;
+    --add: #c8914b;
 }
 
+/* Navigation Bar */
 .navbar-content {
-    background: #47321a;
+    background: var(--bg-odd);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -35,14 +41,67 @@ li {
     display: flex;
     text-decoration: none;
     color: white;
-    padding:0 3vw;
+    padding:0 2vw;
     align-items: center;
     height: 100%;
 }
 
 .nav-link:hover {
-    background: #c8914b;
+    background: var(--add);
     border: none;
     border-radius: 3vh;
+    color: black;
+}
+
+/* Hero Section */
+.hero {
+    background: #37230a;
+
+    display: flex;
+    padding: 1vh 1vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right-section {
+    padding: 3vh 3vw;
+}
+.hero-img {
+    height: 40vw;
+}
+
+.left-section {
+    padding: 3vh 3vw;
+}
+
+.hero-heading {
+    color: var(--add);
+    font-size: var(--medium);
+}
+
+.note {
+    color: white;
+    font-size: var(--medium);
+}
+
+.hero-discription {
+    color: white;
+    font-size: var(--small);
+}
+
+.hero-btn {
+    height: 5vw;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 0 3vw;
+    border-radius: 3vw;
+    font-size: var(--small);
+    margin-right: 2vw;
+}
+
+.hero-btn:hover {
+    background-color: var(--add);
+    border:2px solid var(--add);
     color: black;
 }
