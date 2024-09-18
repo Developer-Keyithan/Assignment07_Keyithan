@@ -4,10 +4,14 @@
     font-family: Poppins;
 
     --medium: 1vw;
+
+    --bg-odd: #47321a;
+    --bg-even: #37230a;
+    --add: #c8914b;
 }
 
 .navbar-content {
-    background: #47321a;
+    background: var(--bg-odd);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -41,7 +45,7 @@ li {
 }
 
 .nav-link:hover {
-    background: #c8914b;
+    background: var(--add);
     border: none;
     border-radius: 3vh;
     color: black;
