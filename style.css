@@ -10,6 +10,7 @@
     --add: #c8914b;
 }
 
+/* Navigation Bar */
 .navbar-content {
     background: var(--bg-odd);
     display: flex;
@@ -49,4 +50,14 @@ li {
     border: none;
     border-radius: 3vh;
     color: black;
+}
+
+/* Hero Section */
+.hero {
+    background: #37230a;
+
+    display: flex;
+    padding: 1vh 1vw;
+    justify-content: space-around;
+    align-items: center;
 }
