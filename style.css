@@ -2,6 +2,8 @@
 
 * {
     font-family: Poppins;
+
+    --medium: 1vw;
 }
 
 .navbar-content {
@@ -15,6 +17,17 @@
 
 .navbar-content {
     color: white;
+}
+
+ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding-left: 5vw;
 }
 
 .nav-link {
