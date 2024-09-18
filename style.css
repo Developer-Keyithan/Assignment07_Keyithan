@@ -99,3 +99,9 @@ li {
     font-size: var(--small);
     margin-right: 2vw;
 }
+
+.hero-btn:hover {
+    background-color: var(--add);
+    border:2px solid var(--add);
+    color: black;
+}
