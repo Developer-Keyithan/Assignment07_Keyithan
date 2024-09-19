@@ -272,6 +272,7 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 3vw 0;
 }
 
 .contact-top {
@@ -285,6 +286,7 @@ span {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding: 2vw 0;
 }
 
 .contact-left {
@@ -346,4 +348,11 @@ span {
     font-weight: 700;
     background: var(--bg-odd);
     color: white;
+}
+
+.form-btn:hover {
+    background-color: var(--add);
+    border:2px solid var(--add);
+    color: black;
+    transition: 0.6s;
 }
