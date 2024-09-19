@@ -5,6 +5,7 @@
 
     --medium: 3vw;
     --small: 1.5vw;
+    --middle: 2vw;
 
     --bg-odd: #47321a;
     --bg-even: #37230a;
@@ -43,8 +44,12 @@
     align-items: center;
 }
 .navbar-img {
-    height: 2.5vw;
+    width: 2.5vw;
     margin: 0 0.5vw;
+}
+
+.nav-heading {
+    font-size: var(--middle);
 }
 
 ul {
