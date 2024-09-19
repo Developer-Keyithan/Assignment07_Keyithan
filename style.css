@@ -265,3 +265,12 @@ span {
     box-shadow: 0 0 2vw #c8914b;
     transition: 0.3s;
 }
+
+/* Contact Us Section */
+.contact {
+    background: var(--bg-even);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
