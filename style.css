@@ -95,6 +95,7 @@ li {
     color: white;
     font-size: var(--small);
     margin-top: 1vw;
+    line-height: 2vw;
 }
 
 .hero-btn {
@@ -148,6 +149,7 @@ li {
     color: white;
     font-size: var(--small);
     margin-top: 3vw;
+    line-height: 2vw;
 }
 
 span {
@@ -202,6 +204,7 @@ span {
     padding: 0 1vw;
     color: white;
     font-size: var(--small);
+    line-height: 2vw;
 }
 
 /* Brand Section */
@@ -243,14 +246,14 @@ span {
 .gallery-images {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 1.5vw;
+    gap: 1vw;
     margin: 4vw 0;
 }
 
 .gallery-img {
     width: 20vw;
     height: 13vw;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .gallery-heading {
@@ -259,6 +262,97 @@ span {
 }
 
 .gallery-img:hover {
-    box-shadow: 0 0 50px #c8914b;
+    box-shadow: 0 0 2vw #c8914b;
     transition: 0.3s;
+}
+
+/* Contact Us Section */
+.contact {
+    background: var(--bg-even);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3vw 0;
+}
+
+.contact-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2vw 0;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-heading {
+    color: white;
+    font-size: var(--medium);
+}
+
+.contact-discription {
+    color: white;
+    font-size: var(--small);
+    line-height: 2vw;
+}
+
+.form {
+    border-radius: 0.3vw;
+    border: none;
+    outline: none;
+    padding: 1vw 2vw;
+    color: gray;
+    margin: 0.5vw 0;
+}
+
+.personal {
+    height: 3vw;
+    width: 40vw;
+}
+
+.textarea {
+    width: 40vw;
+    height: 6vw;
+}
+
+.personal, .textarea::placeholder {
+    font-size: medium;
+    color: gray;
+}
+
+.form-btn {
+    height: 5vw;
+    margin: 0.5vw 0;
+    padding: 0 3vw;
+    width: fit-content;
+    border-radius: 3vw;
+    outline: none;
+    border: none;
+    font-size: var(--small);
+    font-weight: 700;
+    background: var(--bg-odd);
+    color: white;
+}
+
+.form-btn:hover {
+    background-color: var(--add);
+    border:2px solid var(--add);
+    color: black;
+    transition: 0.6s;
 }
