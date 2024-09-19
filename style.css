@@ -297,7 +297,6 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .contact-heading {
@@ -309,4 +308,42 @@ span {
     color: white;
     font-size: var(--small);
     line-height: 2vw;
+}
+
+.form {
+    border-radius: 0.3vw;
+    border: none;
+    outline: none;
+    padding: 1vw 2vw;
+    color: gray;
+    margin: 0.5vw 0;
+}
+
+.personal {
+    height: 3vw;
+    width: 40vw;
+}
+
+.textarea {
+    width: 40vw;
+    height: 6vw;
+}
+
+.personal, .textarea::placeholder {
+    font-size: medium;
+    color: gray;
+}
+
+.form-btn {
+    height: 5vw;
+    margin: 0.5vw 0;
+    padding: 0 3vw;
+    width: fit-content;
+    border-radius: 3vw;
+    outline: none;
+    border: none;
+    font-size: var(--small);
+    font-weight: 700;
+    background: var(--bg-odd);
+    color: white;
 }
