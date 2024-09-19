@@ -131,3 +131,14 @@ li {
     padding: 0 5vw;
     width: 30vw;
 }
+
+.about-heading {
+    color: white;
+    font-size: var(--medium);
+}
+
+.about-discription {
+    color: white;
+    font-size: var(--small);
+    margin-top: 3vw;
+}
