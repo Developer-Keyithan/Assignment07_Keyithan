@@ -9,6 +9,10 @@
     --bg-odd: #47321a;
     --bg-even: #37230a;
     --add: #c8914b;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Navigation Bar */
@@ -20,6 +24,7 @@
     align-items: center;
     padding: 0 3vw;
     color: white;
+    height: 8vh;
 }
 
 ul {
@@ -143,12 +148,56 @@ li {
     margin-top: 3vw;
 }
 
-.about-span {
+span {
     background-color: var(--add);
     height: 0.8vw;
     width: 5vw;
     border-radius: 1vw;
 
     position: relative;
-    margin-top: -1.5vw;
+    margin-top: 1vw;
+}
+
+/* Menu Section */
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background: var(--bg-even);
+    padding: 4vw 0;
+}
+
+.menu-heading{
+    color: white;
+    font-size: var(--medium);
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+
+.food {
+    width: 30vw;
+    padding: 2vw;
+}
+
+.menu-img {
+    height: 15vw;
+    margin-top: 3vw;
+}
+
+.img-heading {
+    margin: 1vw 0;
+    color: white;
+    font-size: var(--small);
+}
+
+.menu-discription {
+    padding: 0 1vw;
+    color: white;
+    font-size: var(--small);
 }
