@@ -238,3 +238,15 @@ span {
     align-items: center;
     text-align: center;
 }
+
+.gallery-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1vw;
+    margin: 4vw 0;
+}
+
+.gallery-img {
+    width: 20vw;
+    height: 13vw;
+}
