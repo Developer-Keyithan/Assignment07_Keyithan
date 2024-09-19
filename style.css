@@ -299,3 +299,14 @@ span {
     justify-content: center;
     align-items: center;
 }
+
+.contact-heading {
+    color: white;
+    font-size: var(--medium);
+}
+
+.contact-discription {
+    color: white;
+    font-size: var(--small);
+    line-height: 2vw;
+}
