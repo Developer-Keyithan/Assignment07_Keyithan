@@ -184,3 +184,20 @@ span {
     width: 30vw;
     padding: 2vw;
 }
+
+.menu-img {
+    height: 15vw;
+    margin-top: 3vw;
+}
+
+.img-heading {
+    margin: 1vw 0;
+    color: white;
+    font-size: var(--small);
+}
+
+.menu-discription {
+    padding: 0 1vw;
+    color: white;
+    font-size: var(--small);
+}
