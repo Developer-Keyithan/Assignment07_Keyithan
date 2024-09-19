@@ -42,14 +42,16 @@ li {
     text-decoration: none;
     color: white;
     padding:0 2vw;
+    margin: 0 0.5vw;
     align-items: center;
+    border-radius: 3vh;
     height: 100%;
+    transition: 0.6s;
 }
 
 .nav-link:hover {
     background: var(--add);
     border: none;
-    border-radius: 3vh;
     color: black;
 }
 
@@ -97,11 +99,56 @@ li {
     padding: 0 3vw;
     border-radius: 3vw;
     font-size: var(--small);
+    font-weight: 700;
     margin-right: 2vw;
+    transition: 0.6s;
 }
 
 .hero-btn:hover {
     background-color: var(--add);
     border:2px solid var(--add);
     color: black;
+}
+
+/* About Us section */
+.about-us {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5vh 1vw;
+    background: var(--bg-odd);
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 5vw;
+}
+
+.about-img {
+    padding: 0 5vw;
+    width: 30vw;
+}
+
+.about-heading {
+    color: white;
+    font-size: var(--medium);
+}
+
+.about-discription {
+    color: white;
+    font-size: var(--small);
+    margin-top: 3vw;
+}
+
+.about-span {
+    background-color: var(--add);
+    height: 0.8vw;
+    width: 5vw;
+    border-radius: 1vw;
+
+    position: relative;
+    margin-top: -1.5vw;
 }
