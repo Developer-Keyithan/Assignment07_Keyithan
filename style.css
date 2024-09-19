@@ -433,3 +433,19 @@ span {
     color: var(--bg-even);
     font-size: var(--small);
 }
+
+
+::-webkit-scrollbar {
+    background: var(--bg-even);
+    width: 0.5vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--add);
+    border-radius: 1vw;
+    visibility: hidden;
+}
+
+:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+}
