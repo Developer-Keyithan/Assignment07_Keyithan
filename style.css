@@ -13,9 +13,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    scroll-behavior: smooth;
+    scroll-padding-top: 4vw;
 }
 
 /* Navigation Bar */
+.navbar-container {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
 .navbar-content {
     background: var(--bg-odd);
     display: flex;
@@ -25,6 +34,17 @@
     padding: 0 3vw;
     color: white;
     height: 8vh;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-img {
+    height: 2.5vw;
+    margin: 0 0.5vw;
 }
 
 ul {
@@ -58,6 +78,7 @@ li {
     background: var(--add);
     border: none;
     color: black;
+    transform: scale(1.2);
 }
 
 /* Hero Section */
@@ -75,6 +96,11 @@ li {
 }
 .hero-img {
     height: 40vw;
+    transition: 0.6s;
+}
+
+.hero-img:hover {
+    transform: scale(1.2);
 }
 
 .left-section {
@@ -116,6 +142,7 @@ li {
     background-color: var(--add);
     border:2px solid var(--add);
     color: black;
+    transform: scale(1.2);
 }
 
 /* About Us section */
@@ -138,6 +165,11 @@ li {
 .about-img {
     padding: 0 5vw;
     width: 30vw;
+    transition: 0.6s;
+}
+
+.about-img:hover {
+    transform: scale(1.2);
 }
 
 .about-heading {
@@ -187,6 +219,11 @@ span {
 .food {
     width: 30vw;
     padding: 2vw;
+    transition: 0.6s;
+}
+
+.food:hover{
+    transform: scale(1.2);
 }
 
 .menu-img {
@@ -222,9 +259,14 @@ span {
     justify-content: space-around;
 }
 
+.brand-img:hover {
+    transform: scale(1.2);
+}
+
 .brand-img {
     width: calc(100%/5);
     padding: 1vw 2vw;
+    transition: 0.6s;
     opacity: 50%;
 }
 
@@ -254,6 +296,11 @@ span {
     width: 20vw;
     height: 13vw;
     border-radius: 5px;
+    transition: 0.6s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.2);
 }
 
 .gallery-heading {
@@ -309,7 +356,12 @@ span {
 .contact-discription {
     color: white;
     font-size: var(--small);
-    line-height: 2vw;
+    line-height: 3vw;
+    transition: 0.6s;
+}
+
+.contact-discription:hover {
+    transform: scale(1.2);
 }
 
 .form {
@@ -319,16 +371,25 @@ span {
     padding: 1vw 2vw;
     color: gray;
     margin: 0.5vw 0;
+    transition: 0.6s;
+}
+
+.form:hover {
+    transform: scale(1.1);
 }
 
 .personal {
     height: 3vw;
     width: 40vw;
+    transition: 0.6s;
+    font-size: medium;
 }
 
 .textarea {
     width: 40vw;
     height: 6vw;
+    transition: 0.6s;
+    font-size: medium;
 }
 
 .personal, .textarea::placeholder {
@@ -348,20 +409,22 @@ span {
     font-weight: 700;
     background: var(--bg-odd);
     color: white;
+    transition: 0.6s;
 }
 
 .form-btn:hover {
     background-color: var(--add);
     color: black;
-    transition: 0.6s;
+    transform: scale(1.2);
 }
 
 /* Footer Section */
 .footer {
     background: #9b7c39;
-    height: 5vw;
+    height: 4vw;
     display: flex;
     justify-content: center;
     align-items: center;
     color: var(--bg-even);
+    font-size: var(--small);
 }
