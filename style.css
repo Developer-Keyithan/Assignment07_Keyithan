@@ -352,7 +352,16 @@ span {
 
 .form-btn:hover {
     background-color: var(--add);
-    border:2px solid var(--add);
     color: black;
     transition: 0.6s;
+}
+
+/* Footer Section */
+.footer {
+    background: #9b7c39;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--bg-even);
 }
