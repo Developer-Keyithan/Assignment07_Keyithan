@@ -228,3 +228,13 @@ span {
 .brand-heading {
     font-size: var(--medium);
 }
+
+/* Gallery Section */
+.gallery {
+    background: var(--bg-odd);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
