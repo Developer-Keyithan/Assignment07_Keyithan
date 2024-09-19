@@ -203,3 +203,17 @@ span {
     color: white;
     font-size: var(--small);
 }
+
+/* Brand Section */
+.brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
