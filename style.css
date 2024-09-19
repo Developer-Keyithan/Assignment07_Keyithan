@@ -142,3 +142,13 @@ li {
     font-size: var(--small);
     margin-top: 3vw;
 }
+
+.about-span {
+    background-color: var(--add);
+    height: 0.8vw;
+    width: 5vw;
+    border-radius: 1vw;
+
+    position: relative;
+    margin-top: -1.5vw;
+}
