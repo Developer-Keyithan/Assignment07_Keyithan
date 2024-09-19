@@ -237,16 +237,23 @@ span {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 5vw 0;
 }
 
 .gallery-images {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 1vw;
+    gap: 1.5vw;
     margin: 4vw 0;
 }
 
 .gallery-img {
     width: 20vw;
     height: 13vw;
+    border-radius: 10px;
+}
+
+.gallery-heading {
+    color: white;
+    font-size: var(--medium);
 }
